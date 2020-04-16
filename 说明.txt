@@ -1,0 +1,7 @@
+api_server
+先用php study 导入 db/mydb.sql数据库 运行
+然后在里面命令行执行 node ./app.js
+
+
+shop
+用· vue ui 运行 项目 就可以了 
