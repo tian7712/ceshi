@@ -1,7 +1,10 @@
-api_server
+chesi_server
 先用php study 导入 db/mydb.sql数据库 运行
-然后在里面命令行执行 node ./app.js
+然后在里面 命令行 执行 node ./app.js
 
 
-shop
-用· vue ui 运行 项目 就可以了 
+ceshi
+用· vue ui 运行 项目 就可
+登录
+用户： admin         tian7712
+密码：123456       123456

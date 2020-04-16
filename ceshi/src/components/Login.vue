@@ -1,6 +1,7 @@
 <template>
   <div class="login_container">
     <div class="login_box">
+      <div class="box-div">登录界面</div>
       
       <el-form ref="loginFormRef" :model="loginForm" :rules="loginFormrules" label-width="0px" class="loginfrom">
         <!-- 用户名 -->
@@ -38,7 +39,7 @@ export default {
       // 登录表单的数据绑定
       loginForm: {
         username: 'tian7712',
-        password: '123456'
+        password: ''
       },
       // 表单的验证规则
       loginFormrules: {
@@ -48,7 +49,7 @@ export default {
           ],
         password: [
             { required: true, message: '请输入密码', trigger: 'change' },
-            { min: 6, max: 15, message: '长度在 6 到 15 个字符', trigger: 'blur' }
+            { min: 6, max: 15, message: '长度在 6 到 15 个字符（密码123456）', trigger: 'blur' }
           ]
       }
     };
@@ -94,6 +95,14 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  .box-div{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    height: 50px;
+    line-height: 50px;
+  }
 }
 .btns {
   display: flex;
